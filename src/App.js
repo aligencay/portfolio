@@ -10,14 +10,15 @@ import AboutUs from './components/AboutUs.jsx';
 function App() {
   return (
     <div>
+      <WelcomeCard />
+      <AboutUs />
       <div style={{display : "flex"}} >
-      <PersonCard />
-      <PersonCard />
-      <PersonCard />
+        <PersonCard />
+        <PersonCard />
+        <PersonCard />
       </div>
       <GetInTouch />
-      <Footer />  <WelcomeCard />
-      <AboutUs />
+      <Footer />  
     </div>
   );
 }
