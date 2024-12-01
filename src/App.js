@@ -4,6 +4,8 @@ import './App.css';
 import Footer from './components/footer/footer';
 import GetInTouch from './components/getInTouch/GetInTouch';
 import PersonCard from './components/person-card';
+import WelcomeCard from './components/WelcomeCard.jsx'
+import AboutUs from './components/AboutUs.jsx';
 
 function App() {
   return (
@@ -14,7 +16,8 @@ function App() {
       <PersonCard />
       </div>
       <GetInTouch />
-      <Footer />
+      <Footer />  <WelcomeCard />
+      <AboutUs />
     </div>
   );
 }
