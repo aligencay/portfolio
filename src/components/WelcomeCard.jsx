@@ -1,9 +1,9 @@
 import React from 'react'
-import image from "../images/welcome-img.png"
+import image from "../images/welcome-img.jpg"
 
 const Welcome = () => {
   return (
-    <div className="relative w-full h-screen flex justify-center items-center">
+    <div className="relative w-full h-screen flex justify-center items-center mb-10">
       <img
         src={image}
         alt="welcome-img"
