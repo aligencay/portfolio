@@ -11,7 +11,7 @@ const GetInTouch = () => {
       <div className="container mx-auto text-center">
         <h2 className="text-5xl font-bold get-touch-title">Get In Touch</h2>
         <p className="mt-4 text-sm md:text-base text-white">
-          Reach out to us for collaborations, inquiries, or support. We're here to help!
+        Contact us to propose your projects or learn more about who we are and what we do. We’re excited to hear from you!
         </p>
         <div className="flex justify-center space-x-4 mt-7 gap-5">
             <a href="#" className="hover:text-white">

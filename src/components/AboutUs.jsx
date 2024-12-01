@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { IoTelescope } from "react-icons/io5";
 
 const AboutUs = () => {
@@ -6,17 +6,17 @@ const AboutUs = () => {
     <div className="bg-black text-white py-16 text-center">
       <h2 className="text-4xl font-bold mb-6">About Us</h2>
       <p className="text-lg max-w-4xl mx-auto mb-4">
-        World Devs is a global community dedicated to connecting developers worldwide. 
-        Our mission is to foster learning, collaboration, and innovation in technology, 
-        providing resources and opportunities for developers to grow professionally.
+        World Devs specializes in developing cross-platform and web
+        applications, offering personalized solutions for third-party clients.
+        Our multicultural team is driven by a shared passion for technology and
+        a dedication to crafting software that aligns with our clients' unique
+        needs. We approach every project as an opportunity to learn, grow, and
+        create meaningful results, combining fresh ideas with a commitment to
+        quality. Together, we turn challenges into opportunities.
       </p>
       <div className="my-6 flex justify-center">
         <IoTelescope />
       </div>
-      <p className="text-lg max-w-4xl mx-auto">
-        Our goal is to empower developers to reach their full potential and positively 
-        contribute to the tech society.
-      </p>
     </div>
   );
 };
