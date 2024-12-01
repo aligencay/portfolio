@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/navbar';
 import Footer from './components/footer/footer';
 import GetInTouch from './components/getInTouch/GetInTouch';
-import PersonCard from './components/person-card';
+import PersonCard from './components/person-card.js';
 import WelcomeCard from './components/WelcomeCard.jsx'
 import AboutUs from './components/AboutUs.jsx';
 // images
