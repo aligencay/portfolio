@@ -2,7 +2,7 @@ import React from "react";
 
 function PersonCard({ name, role, nationality, linkedin, photo }) {
   return (
-    <div className="flex items-center bg-[#171a1f] rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 w-full max-w-lg mx-auto mb-6">
+    <div className="flex items-center bg-[#171a1f] rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 w-full max-w-md mx-auto mb-6">
       <div className="flex-1 pr-4">
         <h3 className="text-2xl font-bold text-white">{name}</h3>
         <p className="text-sm text-[#727680] mt-1">Role: {role}</p>
@@ -21,7 +21,7 @@ function PersonCard({ name, role, nationality, linkedin, photo }) {
         <img
           src={photo}
           alt={`${name}'s photo`}
-          className="object-cover w-full h-full rounded-full border-2 border-[#636ae8]"
+          className="object-cover w-full h-full rounded-full"
         />
       </div>
     </div>
