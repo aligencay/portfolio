@@ -1,14 +1,13 @@
 import React from 'react';
+import Navbar from './components/navbar';
 import './App.css';
-import PersonCard from './components/person-card';
 
 function App() {
-
-
-  return ( 
-    <div></div>
-  
-  )
+  return (
+    <>
+     
+    </>
+  );
 }
 
 export default App;
