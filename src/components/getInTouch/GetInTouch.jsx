@@ -14,16 +14,17 @@ const GetInTouch = () => {
         Contact us to propose your projects or learn more about who we are and what we do. We’re excited to hear from you!
         </p>
         <div className="flex justify-center space-x-4 mt-7 gap-5">
-            <a href="#" className="hover:text-white">
-                <FaLinkedin className="h-10 w-10" />
-            </a>
-            <a href="#" className="hover:text-white">
-                <SiFiverr className="h-10 w-10" />
-            </a>
-            <a href="#" className="hover:text-white">
-                <SiGmail className="h-10 w-10" />
-            </a>
-          </div>
+          <a href="#" className="hover:opacity-80">
+            <SiFiverr className="h-10 w-10" style={{ color: "#1DBF73" }} />
+          </a>
+          <a href="#" className="hover:opacity-80">
+            <FaLinkedin className="h-10 w-10" style={{ color: "#0A66C2" }} />
+          </a>
+
+          <a href="#" className="hover:opacity-80">
+            <SiGmail className="h-10 w-10" style={{ color: "#EA4335" }} />
+          </a>
+        </div>
       </div>
     </section>
   );
