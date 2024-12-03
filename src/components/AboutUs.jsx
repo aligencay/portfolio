@@ -12,11 +12,14 @@ const AboutUs = () => {
         a dedication to crafting software that aligns with our clients' unique
         needs. We approach every project as an opportunity to learn, grow, and
         create meaningful results, combining fresh ideas with a commitment to
-        quality. Together, we turn challenges into opportunities.
+        quality.
       </p>
       <div className="my-6 flex justify-center">
         <IoTelescope />
       </div>
+      <p className="text-lg max-w-4xl mx-auto">
+        Together, we turn challenges into opportunities.
+      </p>
     </div>
   );
 };

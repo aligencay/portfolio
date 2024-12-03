@@ -5,11 +5,9 @@ function Navbar() {
     <nav className="bg-[#171a1f] text-white px-6 py-3 flex items-center shadow-md sticky top-0 z-50">
       {/* Logo */}
       <div className="flex items-center mr-8">
-        <img
-          src="https://via.placeholder.com/40"
-          alt="Logo"
-          className="w-10 h-10 rounded-full"
-        />
+      <div className="bg-gradient-to-r from-teal-500 to-pink-500 rounded-full p-2">
+              <span className="bg-white block w-4 h-4 rounded-full"></span>
+            </div>
         <span className="text-2xl text-white ml-3">World Devs</span>
       </div>
 
