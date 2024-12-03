@@ -27,9 +27,14 @@ function App() {
   return (
     <div>
       <Navbar />
-      <WelcomeCard />
-      <AboutUs />
-      <div className='grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto bg-black p-6'>
+      <section id="home">
+        <WelcomeCard />
+      </section>
+      <section id="about">
+        <AboutUs />
+      </section>
+      <section id="team" className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto bg-black p-6">
+        
         {people.map((person, index) => (
           <PersonCard
             key={index}
@@ -40,8 +45,10 @@ function App() {
             photo={person.photo}
           />
         ))}
-      </div>
-      <GetInTouch />
+      </section>
+      <section id="contact">
+        <GetInTouch />
+      </section>
       <Footer />
     </div>
   );
