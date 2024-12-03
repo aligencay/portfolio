@@ -17,7 +17,7 @@ const GetInTouch = () => {
           <a href="#" className="hover:opacity-80">
             <SiFiverr className="h-10 w-10" style={{ color: "#1DBF73" }} />
           </a>
-          <a href="https://www.linkedin.com/company/105278497" className="hover:opacity-80">
+          <a href="https://www.linkedin.com/company/world-devs" className="hover:opacity-80">
             <FaLinkedin className="h-10 w-10" style={{ color: "#0A66C2" }} />
           </a>
 
